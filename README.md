@@ -1,1 +1,1 @@
-https://mukherjee96.github.io/about-me/
+https://mukherjee96.github.io/
