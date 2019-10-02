@@ -16,3 +16,8 @@
 window.onload = function() {
   document.getElementsByClassName('load-bar')[0].style.display = 'none';
 };
+
+// Init popovers
+$(function() {
+  $('[data-toggle="popover"]').popover();
+});
