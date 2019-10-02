@@ -218,3 +218,10 @@ a:focus,
 a:hover {
   color: #824027;
 }
+/* Bootstrap outline buttons focus color correction */
+.btn-outline-secondary:focus {
+  color: #6c757d;
+}
+.justify {
+  text-align: justify !important;
+}
