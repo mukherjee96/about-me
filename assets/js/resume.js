@@ -1,3 +1,8 @@
+document.getElementById('collapseToggle').addEventListener('click', e => {
+  if (e.target.text.includes('Read More')) e.target.text = 'Read Less';
+  else e.target.text = 'Read More';
+});
+
 (function($) {
   'use strict'; // Start of use strict
 
