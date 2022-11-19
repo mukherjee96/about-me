@@ -219,6 +219,12 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media (max-width: 450px) {
+  .intro {
+    font-size: 4vw;
+  }
+}
+
 .bg-primary {
   background-color: #500075 !important;
 }
