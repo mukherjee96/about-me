@@ -74,6 +74,10 @@ p.lead {
   outline-color: #6f0d9c;
 }
 
+#about {
+  text-align: center;
+}
+
 .load-bar {
   position: relative;
   width: 100%;
@@ -146,6 +150,7 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    justify-content: center;
   }
 
   #sideNav .navbar-brand {
@@ -154,10 +159,16 @@ p.lead {
     padding: 0.5rem;
   }
 
-  #sideNav .navbar-brand .img-profile {
+  /* #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #af87c2;
+  } */
+
+  #about .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid #ccaedb;
   }
 
   #sideNav .navbar-collapse {
@@ -192,7 +203,15 @@ section.resume-section {
   max-width: 75rem;
 }
 
+section.resume-section.about {
+  min-height: 100vh;
+}
+
 @media only screen and (max-width: 412px) {
+  .intro {
+    font-size: 4vw;
+  }
+
   section.resume-section {
     padding-top: 3rem !important;
   }
@@ -216,12 +235,6 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-}
-
-@media (max-width: 450px) {
-  .intro {
-    font-size: 4vw;
   }
 }
 
