@@ -75,6 +75,7 @@ p.lead {
 }
 
 #about {
+  min-width: 100%;
   text-align: center;
 }
 
