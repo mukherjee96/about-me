@@ -1,0 +1,21 @@
+:root {
+  /* Main colors */
+  --primary-color: #500075;
+  --secondary-color: #ab33ab;
+
+  /* Text colors */
+  --primary-text-color: #868e96;
+  --secondary-text-color: #343a40;
+
+  /* Profile image */
+  --profile-image-bg: #ccaedb;
+
+  /* Social colors */
+  --social-bg-color: #495057;
+  --social-text-color: #fff;
+
+  /* Loader bar */
+  --load-bar-first: #500075;
+  --load-bar-second: #71109e;
+  --load-bar-third: #8724b5;
+}
