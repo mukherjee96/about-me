@@ -14,11 +14,11 @@ window.onload = function () {
 };
 
 // Collapse the nav when visitor clicks on nav item
-const navLinks = document.querySelectorAll(".nav-item");
-const menuToggle = document.getElementById("navbarSupportedContent");
-const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
-navLinks.forEach((navItem) => {
-  navItem.addEventListener("click", () => {
-    bsCollapse.toggle();
-  });
-});
+// const navLinks = document.querySelectorAll(".nav-item");
+// const menuToggle = document.getElementById("navbarSupportedContent");
+// const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+// navLinks.forEach((navItem) => {
+//   navItem.addEventListener("click", () => {
+//     bsCollapse.toggle();
+//   });
+// });
