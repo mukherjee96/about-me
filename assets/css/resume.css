@@ -269,6 +269,10 @@ a:hover {
   text-align: justify !important;
 }
 
+.start {
+  text-align: start !important;
+}
+
 .opener {
   font-size: 1.4em !important;
 }
